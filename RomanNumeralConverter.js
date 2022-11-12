@@ -17,5 +17,4 @@ function convertToRoman(num){
     }
     return output;
 }
-
 console.log(convertToRoman(1900));
