@@ -5,7 +5,7 @@ function convertToRoman(num){
     let output = "";
     while(rest > 0){
         arabic.every((element,i) => {
-            if(rest >= element){
+            if(rest >= element){   
                 rest -= element;
                 output += roman[i];
                 return false;
